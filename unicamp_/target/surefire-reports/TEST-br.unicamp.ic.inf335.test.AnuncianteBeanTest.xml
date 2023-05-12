@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.unicamp.ic.inf335.test.AnuncianteBeanTest" time="0.001" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_/target/test-classes:/home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_/target/classes:/home/edson-bricchesi/.m2/repository/junit/junit/4.4/junit-4.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/edson-bricchesi/Documents/spring-tool-suite-4-4.18.0.RELEASE-e4.27.0-linux.gtk.x86_64/sts-4.18.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.6.v20230204-1729/jre/lib"/>
+    <property name="sun.java.command" value="/home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_/target/surefire/surefirebooter7163501325722083371.jar /home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_/target/surefire 2023-05-05T20-11-03_230-jvmRun1 surefire15621351340454809078tmp surefire_07433308870064958411tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_/target/test-classes:/home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_/target/classes:/home/edson-bricchesi/.m2/repository/junit/junit/4.4/junit-4.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/edson-bricchesi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/home/edson-bricchesi/Documents/spring-tool-suite-4-4.18.0.RELEASE-e4.27.0-linux.gtk.x86_64/sts-4.18.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.6.v20230204-1729/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_/target/surefire/surefirebooter7163501325722083371.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="edson-bricchesi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-136-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="localRepository" value="/home/edson-bricchesi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="/home/edson-bricchesi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/unicamp_"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="getAnuncios" classname="br.unicamp.ic.inf335.test.AnuncianteBeanTest" time="0.001"/>
+  <testcase name="setAnuncios" classname="br.unicamp.ic.inf335.test.AnuncianteBeanTest" time="0"/>
+  <testcase name="adicionarAnuncio" classname="br.unicamp.ic.inf335.test.AnuncianteBeanTest" time="0"/>
+  <testcase name="removerAnuncio" classname="br.unicamp.ic.inf335.test.AnuncianteBeanTest" time="0"/>
+</testsuite>
