@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout do repositório do GitHub
-                git 'https://github.com/seu-usuario/seu-repositorio.git'
+                git 'https://github.com/bricchesi-encora/Atividade5-1.git'
             }
         }
 
